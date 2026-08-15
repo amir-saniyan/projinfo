@@ -1,0 +1,10 @@
+{
+    "name": "Minimal",
+    "description": "Minimal rules for a very small project.",
+    "exclude_dirs": [
+        ".git"
+    ],
+    "exclude_files": [],
+    "content_extensions": [],
+    "content_files": []
+}

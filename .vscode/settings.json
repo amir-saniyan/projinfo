@@ -1,0 +1,34 @@
+{
+    // =========================
+    // Editor
+    // =========================
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    // =========================
+    // Python
+    // =========================
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+    },
+    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.callArgumentNames": "all",
+    // =========================
+    // Ruff
+    // =========================
+    "ruff.nativeServer": "auto",
+    "ruff.organizeImports": true,
+    "ruff.fixAll": true,
+    // =========================
+    // Spell Checker
+    // =========================
+    "cSpell.enabled": true,
+    "cSpell.language": "en",
+    "cSpell.words": [],
+}

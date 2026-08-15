@@ -1,0 +1,23 @@
+{
+    "exclude_dirs": [
+        ".git",
+        ".gradle",
+        "target",
+        "build",
+        "out"
+    ],
+    "exclude_files": [],
+    "content_extensions": [
+        ".java",
+        ".kt",
+        ".kts"
+    ],
+    "content_files": [
+        "pom.xml",
+        "build.gradle",
+        "build.gradle.kts",
+        "settings.gradle",
+        "settings.gradle.kts",
+        "gradle.properties"
+    ]
+}
