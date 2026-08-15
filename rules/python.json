@@ -1,0 +1,44 @@
+{
+    "name": "Python",
+    "description": "Python source and common Python project files.",
+    "exclude_dirs": [
+        ".git",
+        ".venv",
+        "venv",
+        "env",
+        "ENV",
+        "__pycache__",
+        ".pytest_cache",
+        ".mypy_cache",
+        ".ruff_cache",
+        ".tox",
+        ".nox",
+        ".pytype",
+        ".hypothesis",
+        "htmlcov",
+        "build",
+        "dist",
+        "*.egg-info"
+    ],
+    "exclude_files": [
+        "*.pyc",
+        "*.pyo",
+        "*.pyd"
+    ],
+    "content_extensions": [
+        ".py",
+        ".pyi",
+        ".pyw"
+    ],
+    "content_files": [
+        "pyproject.toml",
+        "requirements.txt",
+        "requirements-dev.txt",
+        "setup.py",
+        "setup.cfg",
+        "tox.ini",
+        "pytest.ini",
+        "Pipfile",
+        "README.md"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "exclude_dirs": [
+        ".git",
+        ".vs",
+        "bin",
+        "obj",
+        "packages"
+    ],
+    "exclude_files": [],
+    "content_extensions": [
+        ".cs",
+        ".csx",
+        ".razor"
+    ],
+    "content_files": [
+        ".csproj",
+        ".fsproj",
+        ".sln",
+        "Directory.Build.props",
+        "Directory.Build.targets",
+        "global.json",
+        "NuGet.config"
+    ]
+}

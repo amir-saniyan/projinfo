@@ -1,0 +1,42 @@
+{
+    "name": "Web",
+    "description": "HTML, CSS, JavaScript and common web project files.",
+    "exclude_dirs": [
+        ".git",
+        "node_modules",
+        "dist",
+        "build",
+        "coverage",
+        ".cache",
+        ".parcel-cache",
+        ".next",
+        ".nuxt",
+        ".turbo",
+        ".vercel",
+        ".docusaurus"
+    ],
+    "exclude_files": [
+        "*.min.js",
+        "*.min.css",
+        "*.map"
+    ],
+    "content_extensions": [
+        ".html",
+        ".htm",
+        ".css",
+        ".scss",
+        ".sass",
+        ".less",
+        ".js",
+        ".jsx",
+        ".mjs",
+        ".cjs"
+    ],
+    "content_files": [
+        "package.json",
+        "vite.config.js",
+        "vite.config.ts",
+        "webpack.config.js",
+        "README.md"
+    ]
+}

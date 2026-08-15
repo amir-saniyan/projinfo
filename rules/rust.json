@@ -1,0 +1,25 @@
+{
+    "name": "Rust",
+    "description": "Rust source and Cargo project files.",
+    "exclude_dirs": [
+        ".git",
+        "target",
+        "build",
+        "dist"
+    ],
+    "exclude_files": [
+        "*.rs.bk"
+    ],
+    "content_extensions": [
+        ".rs"
+    ],
+    "content_files": [
+        "Cargo.toml",
+        "Cargo.lock",
+        "build.rs",
+        "rust-toolchain.toml",
+        "rust-toolchain",
+        "rustfmt.toml",
+        "README.md"
+    ]
+}

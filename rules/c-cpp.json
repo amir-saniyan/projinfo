@@ -1,0 +1,40 @@
+{
+    "name": "C/C++",
+    "description": "C and C++ source files and common project files.",
+    "exclude_dirs": [
+        ".git",
+        "build",
+        "dist",
+        "out",
+        "bin",
+        "obj",
+        "cmake-build-debug",
+        "cmake-build-release"
+    ],
+    "exclude_files": [
+        "*.o",
+        "*.obj",
+        "*.a",
+        "*.so",
+        "*.dll",
+        "*.dylib",
+        "*.exe"
+    ],
+    "content_extensions": [
+        ".c",
+        ".h",
+        ".cc",
+        ".cpp",
+        ".cxx",
+        ".hh",
+        ".hpp",
+        ".hxx"
+    ],
+    "content_files": [
+        "CMakeLists.txt",
+        "Makefile",
+        "meson.build",
+        "configure.ac",
+        "README.md"
+    ]
+}

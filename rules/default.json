@@ -1,0 +1,62 @@
+{
+    "name": "Default",
+    "description": "Balanced rules for common software projects.",
+    "exclude_dirs": [
+        ".git",
+        ".venv",
+        "venv",
+        "__pycache__",
+        "node_modules",
+        "build",
+        "dist",
+        "target",
+        "bin",
+        "obj",
+        "packages",
+        "out"
+    ],
+    "exclude_files": [
+        "*.pyc",
+        "*.pyo",
+        "*.o",
+        "*.obj",
+        "*.log",
+        "*.tmp",
+        "*.map"
+    ],
+    "content_extensions": [
+        ".c",
+        ".h",
+        ".cpp",
+        ".hpp",
+        ".cc",
+        ".py",
+        ".go",
+        ".rs",
+        ".js",
+        ".jsx",
+        ".ts",
+        ".tsx",
+        ".html",
+        ".htm",
+        ".css",
+        ".scss",
+        ".sql",
+        ".sh"
+    ],
+    "content_files": [
+        "README.md",
+        "README.txt",
+        "LICENSE",
+        ".gitignore",
+        "Makefile",
+        "CMakeLists.txt",
+        "Dockerfile",
+        "package.json",
+        "tsconfig.json",
+        "pyproject.toml",
+        "requirements.txt",
+        "Cargo.toml",
+        "go.mod"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Go",
+    "description": "Go source and common Go project files.",
+    "exclude_dirs": [
+        ".git",
+        "vendor",
+        "build",
+        "dist",
+        "bin",
+        "tmp"
+    ],
+    "exclude_files": [
+        "*.exe",
+        "*.test",
+        "*.out"
+    ],
+    "content_extensions": [
+        ".go"
+    ],
+    "content_files": [
+        "go.mod",
+        "go.sum",
+        "Makefile",
+        "README.md"
+    ]
+}

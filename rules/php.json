@@ -1,0 +1,25 @@
+{
+    "exclude_dirs": [
+        ".git",
+        "vendor",
+        "node_modules",
+        "storage",
+        "cache"
+    ],
+    "exclude_files": [],
+    "content_extensions": [
+        ".php",
+        ".phtml",
+        ".php3",
+        ".php4",
+        ".php5",
+        ".phps"
+    ],
+    "content_files": [
+        "composer.json",
+        "composer.lock",
+        "phpunit.xml",
+        "phpunit.xml.dist",
+        ".php-version"
+    ]
+}
